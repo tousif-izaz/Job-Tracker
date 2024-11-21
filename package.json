@@ -1,0 +1,27 @@
+{
+  "name": "jobapp",
+  "version": "1.0.0",
+  "description": "job tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tousif-izaz/Job-Tracker.git"
+  },
+  "author": "Tousif Izaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tousif-izaz/Job-Tracker/issues"
+  },
+  "homepage": "https://github.com/tousif-izaz/Job-Tracker#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "jobapp": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
